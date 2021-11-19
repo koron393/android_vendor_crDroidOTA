@@ -1,0 +1,24 @@
+{
+  "response": [
+    {
+        "maintainer": "koron393",
+        "oem": "SONY",
+        "device": "SONY Xperia Z3 Tablet Compact (Wi-Fi)",
+        "filename": "crDroidAndroid-11.0-20211120-scorpion_windy-v7.12.zip",
+        "download": "",
+        "timestamp": 1637343120,
+        "md5": "b565410b322a5306d2856c146a3c51c6",
+        "size": 612745164,
+        "version": "7.12",
+        "buildtype": "Testing",
+        "forum": "https://twitter.com/koron393",
+        "gapps": "https://opengapps.org/",
+        "firmware": "",
+        "modem": "",
+        "bootloader": "",
+        "recovery": "",
+        "paypal": "https://paypal.me/koron393",
+        "telegram": "https://t.me/koron393"
+    }
+  ]
+}
