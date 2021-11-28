@@ -1,0 +1,90 @@
+====================
+     11-23-2021
+====================
+
+   * hardware/qcom-caf/msm8974/audio
+7793ea52e audio: Fix miss merge
+
+====================
+     11-22-2021
+====================
+
+   * frameworks/base
+5706881e1d06 [3/4] FWB: Add back OmniSwitch Recent
+
+   * packages/apps/OmniSwitch
+423133a [4/4] OmniSwitch: Add back OmniSwitch Recent
+
+   * packages/apps/crDroidSettings
+fe5f9c62 [3/4] crDroid: Add back OmniSwitch Recent
+
+====================
+     11-21-2021
+====================
+
+   * frameworks/native
+806136d037 Revert "Revert "DispSync: workaround HH hardware vsync issue""
+
+   * system/vold
+f24c192 Fix the group permissions of the sdcard root.
+52af50e vold ext4/f2fs: do not use dirsync if we're mounting adopted storage
+b292a6b vold: Mount ext4/f2fs portable storage with sdcard_posix
+3a400b5 vold: Honor mount options for ext4/f2fs partitions
+f5a2320 vold: Support internal storage partitions
+cca60a3 vold: Fix fsck on public volumes
+bb153b4 vold: add support for more filesystems for public storage
+
+   * vendor/lineage
+e9c0d0b7 soong: add TARGET_HAS_HH_VSYNC_ISSUE conditional
+
+====================
+     11-20-2021
+====================
+
+====================
+     11-19-2021
+====================
+
+====================
+     11-18-2021
+====================
+
+   * hardware/qcom-caf/msm8994/audio
+a34a40723 hal: Add support for 24 bit through deep buffer
+
+====================
+     11-17-2021
+====================
+
+====================
+     11-16-2021
+====================
+
+====================
+     11-15-2021
+====================
+
+====================
+     11-14-2021
+====================
+
+   * frameworks/base
+47b4ad6d0752 [DNM] fonts: Use mplus-1m for default Japanese font.
+
+   * hardware/broadcom/fm
+25a1c9f FM: Allow JAPAN BAND
+91cc60c FM: Move bt_vendor.conf file to vendor
+
+   * hardware/broadcom/libbt
+97985f8 libbt: Move bt_vendor.conf to /vendor/etc
+
+   * hardware/qcom-caf/msm8974/audio
+57717cd3a [DNM] hal: Debugging On
+b018cdc0d hal: Add support for 24 bit through deep buffer
+a73f3b08f Remove redefinition of typedef
+3f6863775 Include stdlib.h to get explicit declaration of free()
+683526965 Convert GNU old-style field designator to C99 syntax
+
+   * packages/apps/FMRadio
+cd3baef FMRadio: Set default JAPAN WIDE BAND
+
