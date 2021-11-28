@@ -1,24 +1,24 @@
 {
-  "response": [
-    {
-        "maintainer": "koron393",
-        "oem": "SONY",
-        "device": "SONY Xperia Z3 Tablet Compact LTE",
-        "filename": "crDroidAndroid-11.0-20211123-scorpion-v7.12.zip",
-        "download": "",
-        "timestamp": 1637594667,
-        "md5": "74cb25820149890a090f8d8f309e2649",
-        "size": 651778172,
-        "version": "7.12",
-        "buildtype": "Testing",
-        "forum": "https://twitter.com/koron393",
-        "gapps": "https://opengapps.org/",
-        "firmware": "",
-        "modem": "",
-        "bootloader": "",
-        "recovery": "",
-        "paypal": "https://paypal.me/koron393",
-        "telegram": "https://t.me/koron393"
-    }
-  ]
+        "response": [
+                {
+                        "maintainer": "koron393",
+                        "oem": "SONY",
+                        "device": "SONY Xperia Z3 Tablet Compact LTE",
+                        "filename": "crDroidAndroid-11.0-20211128-scorpion-v7.12.zip",
+                        "download": "",
+                        "timestamp": 1638085153,
+                        "md5": "037137b1ed2cb83e8f93dcbcb0f50cb2",
+                        "size": 653237982,
+                        "version": "7.12",
+                        "buildtype": "Testing",
+                        "forum": "https://twitter.com/koron393",
+                        "gapps": "https://opengapps.org/",
+                        "firmware": "",
+                        "modem": "",
+                        "bootloader": "",
+                        "recovery": "",
+                        "paypal": "https://paypal.me/koron393",
+                        "telegram": "https://t.me/koron393"
+                }
+        ]
 }
