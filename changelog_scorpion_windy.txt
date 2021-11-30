@@ -1,10 +1,27 @@
 ====================
-     11-28-2021
+     11-30-2021
+====================
+
+   * device/sony/msm8974-common
+694aeac msm8974-common: Switch to common basic USB HAL
+
+   * hardware/sony/macaddrsetup
+cd8ddac macaddrsetup: Fix permission for bluetooth service
+61f9a48 macaddrsetup: Fix for encrypted device
+
+====================
+     11-29-2021
 ====================
 
    * device/sony/msm8974-common
 57afecb msm8974-common: Add dynamics_processing to audio_effects.xml
 f16ef74 msm8974-common: Fix audio_effects.xml UUID
+
+====================
+     11-28-2021
+====================
+
+   * device/sony/msm8974-common
 8ed0a86 msm8974-common: Build OmniSwitch package
 290430a msm8974-common: Increase ro.lmk.medium to prevent kills at medium vmpressure Setting ro.lmk.medium to 800 to prevent important processes from being killed at medium vmpressure levels.
 8193bfb msm8974-common: Switch lmkd to use minfree levels for kill decisions Enable ro.lmk.use_minfree_levels flag to use minfree levels to decide when lmkd should kill. This makes lmkd work the same way lowmemorykiller kernel driver used to work.
@@ -35,15 +52,6 @@ c48c05375e6b [DNM] fonts: Use mplus-1m for default Japanese font.
    * packages/apps/crDroidSettings
 72b159b4 [2/3] crDroid: Add back OmniSwitch Recent
 
-   * system/vold
-27a47b4 Fix the group permissions of the sdcard root.
-fa74574 vold ext4/f2fs: do not use dirsync if we're mounting adopted storage
-1d6769b vold: Mount ext4/f2fs portable storage with sdcard_posix
-2c8328e vold: Honor mount options for ext4/f2fs partitions
-91f9c30 vold: Support internal storage partitions
-abf91a3 vold: Fix fsck on public volumes
-c73882c vold: add support for more filesystems for public storage
-
    * vendor/lineage
 37f96f41 soong: add TARGET_HAS_HH_VSYNC_ISSUE conditional
 
@@ -59,14 +67,6 @@ c73882c vold: add support for more filesystems for public storage
      11-25-2021
 ====================
 
-   * packages/apps/OmniSwitch
-b2a7fc6 Merge pull request #1 from koron393/11.0-recent
-ec9cc08 [3/3] OmniSwitch: Add back OmniSwitch Recent
-
-====================
-     11-24-2021
-====================
-
    * hardware/qcom-caf/msm8974/display
 f669a3a1b display: Build fixes
 338274340 display: Add single system image support
@@ -80,17 +80,16 @@ d3e0bf066 display: Add frame scheduler interface
 1c3648596 display: include: Add SmoMo interface
 47edc1ea2 display: include: Add frame extn interface
 
+   * packages/apps/OmniSwitch
+b2a7fc6 Merge pull request #1 from koron393/11.0-recent
+ec9cc08 [3/3] OmniSwitch: Add back OmniSwitch Recent
+
 ====================
-     11-23-2021
+     11-24-2021
 ====================
 
    * device/sony/msm8974-common
 c5837e9 msm8974-common: SEPolicy: Fix ro.vendor.build.security_patch denials
-
-   * device/sony/scorpion_windy
-8d2a5d3 scorpion-common: Remove boot log & add bootanimation
-7f35eac scorpion-common: Add old audio_policy.conf for backward compatibility
-2984239 scorpion-common: Add packed 24-bit pcm to audio policy
 
    * device/sony/shinano-common
 e22e3bbf shinano-common: rootdir: Set bluetooth properties from makefile
@@ -98,24 +97,25 @@ da4ef9a6 shinano-common: Move macaddrsetup service declaration to its respective
 950fb1ba shinano-common: Fix tombstones permission
 
 ====================
+     11-23-2021
+====================
+
+   * device/sony/scorpion_windy
+8d2a5d3 scorpion-common: Remove boot log & add bootanimation
+7f35eac scorpion-common: Add old audio_policy.conf for backward compatibility
+2984239 scorpion-common: Add packed 24-bit pcm to audio policy
+
+====================
      11-22-2021
 ====================
 
    * device/sony/msm8974-common
 058380f msm8974-common: SEPolicy: Fix sensor denials
-
-   * device/sony/shinano-common
-3266f8d3 shinano-common: SEPolicy: Fix init.qcom-sensor.sh denials
-
-====================
-     11-21-2021
-====================
-
-   * device/sony/msm8974-common
 8983223 msm8974-common: Clean up SEPolicy for Enforcing
 ac995c7 msm8974-common: Enable workaround for HWC vsync issue
 
    * device/sony/shinano-common
+3266f8d3 shinano-common: SEPolicy: Fix init.qcom-sensor.sh denials
 6990c9f1 [TEMP] shinano-common: Fix properties for R
 0cd56726 [TEMP] shinano-common: init: Add dir for tombstones
 15b6f5e7 shinano-common: Enforcing now
@@ -123,7 +123,7 @@ ac995c7 msm8974-common: Enable workaround for HWC vsync issue
 2856e759 shinano-common: Kill idd
 
 ====================
-     11-20-2021
+     11-21-2021
 ====================
 
    * device/sony/msm8974-common
@@ -133,23 +133,7 @@ fc86df7 msm8974-common: Enable AOSP bluetooth audio HAL v2
 acf6d90 scorpion-common: Drop COMPRESS_OFFLOAD
 d0b43c9 scorpion-common: Enable AOSP bluetooth audio HAL v2
 
-   * packages/apps/DeskClock
-cb822061a DeskClock: fix setting alarm volume
-
    * system/vold
 9fd2edf Merge pull request #4 from Hikari-no-Tenshi/11.0
 862f0e6 Silence useless LOOP_GET_STATUS64 warnings
-
-   * vendor/lineage
-c77587ac crdroid: Remove duplicate prop assignment
-
-====================
-     11-19-2021
-====================
-
-   * external/htop
-5bbeb9e htop: Set HOME to /sdcard on android
-59424e6 htop: Fix build error under -std=c99
-3e02733 htop: Regenerate sources and configs for Android builds
-e9bd5da Merge tag 3.1.1 of https://github.com/htop-dev/htop
 
